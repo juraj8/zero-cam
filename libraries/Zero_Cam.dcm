@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ARJM11D7-114
+D 114 (100 Base-T & PoE)  Passive POE
+F https://abracon.com/Magnetics/ARJM11.pdf
+$ENDCMP
+#
+$CMP LMR36510
+D LMR36510 SIMPLE SWITCHER® 4.2-V to 65-V, 1-A Synchronous Step-down Converter
+F https://www.ti.com/lit/ds/symlink/lmr36510.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1619259621416
+$ENDCMP
+#
+#End Doc Library
