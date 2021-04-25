@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Raspberry_Pi)(type Legacy)(uri ${KIPRJMOD}/libraries/raspberry_pi/Raspberry_Pi.lib)(options "")(descr "Custom Rasberry Pi Library"))
+  (lib (name Zero_Cam)(type Legacy)(uri ${KIPRJMOD}/libraries/Zero_Cam.lib)(options "")(descr "Project Specific Symbols"))
+)

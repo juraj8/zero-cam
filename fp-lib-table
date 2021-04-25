@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Raspberry_Pi)(type KiCad)(uri ${KIPRJMOD}/libraries/raspberry_pi/Raspberry_Pi.pretty)(options "")(descr ""))
+  (lib (name zero-cam)(type KiCad)(uri ${KIPRJMOD}/libraries/zero-cam.pretty)(options "")(descr ""))
+)
