@@ -692,8 +692,6 @@ Wire Wire Line
 	10050 3600 9950 3600
 Text HLabel 10100 4300 2    50   UnSpc ~ 0
 POE+
-Entry Wire Line
-	9850 3950 9950 3850
 $Comp
 L Device:D_Schottky_Small D10
 U 1 1 609319DC
@@ -740,14 +738,11 @@ Text GLabel 4700 4100 2    50   UnSpc ~ 0
 POE-
 Text HLabel 10100 4400 2    50   UnSpc ~ 0
 POE-
-Entry Wire Line
-	9850 4050 9950 3950
 Wire Wire Line
 	4050 3800 4700 3800
 Wire Wire Line
 	4050 4100 4700 4100
 NoConn ~ 8200 3650
-NoConn ~ 10050 2000
 Text GLabel 9900 4300 0    50   UnSpc ~ 0
 POE+
 Wire Wire Line
