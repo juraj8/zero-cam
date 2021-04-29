@@ -41,7 +41,7 @@ U 1 1 6084FE21
 P 6050 4450
 F 0 "Y1" V 5900 4400 50  0000 L CNN
 F 1 "25MHz 50ppm" V 6250 4350 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm" H 6050 4450 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 6050 4450 50  0001 C CNN
 F 3 "~" H 6050 4450 50  0001 C CNN
 	1    6050 4450
 	0    1    1    0   
@@ -755,4 +755,28 @@ Wire Bus Line
 	8800 2500 8800 3800
 Wire Bus Line
 	9850 2500 9850 4050
+Text Label 6350 3650 0    11   ~ 0
+led_a
+Text Label 6350 3750 0    11   ~ 0
+led_b
+Text Label 6400 2950 2    11   ~ 0
+TP_OUT+
+Text Label 6400 3050 2    11   ~ 0
+TP_OUT-
+Text Label 6400 3350 2    11   ~ 0
+TP_IN-
+Text Label 6400 3250 2    11   ~ 0
+TP_IN+
+Text Label 6400 4850 2    11   ~ 0
+e_bias
+Text Label 6400 5150 2    11   ~ 0
+e_vcap
+Text Label 3650 2950 0    11   ~ 0
+TCT
+Text Label 3700 3250 0    11   ~ 0
+rd+
+Text Label 3700 3650 0    11   ~ 0
+rd-
+Text Label 3650 3450 0    11   ~ 0
+rct
 $EndSCHEMATC
