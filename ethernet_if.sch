@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "Ethernet Interface"
-Date "2021-04-25"
+Date "2021-05-01"
 Rev "v0.1.0"
 Comp "Juraj Giertl"
 Comment1 "j74a8g@gmail.com"
@@ -751,10 +751,6 @@ Text GLabel 9900 4400 0    50   UnSpc ~ 0
 POE-
 Wire Wire Line
 	9900 4400 10100 4400
-Wire Bus Line
-	8800 2500 8800 3800
-Wire Bus Line
-	9850 2500 9850 4050
 Text Label 6350 3650 0    11   ~ 0
 led_a
 Text Label 6350 3750 0    11   ~ 0
@@ -779,4 +775,8 @@ Text Label 3700 3650 0    11   ~ 0
 rd-
 Text Label 3650 3450 0    11   ~ 0
 rct
+Wire Bus Line
+	8800 2500 8800 3800
+Wire Bus Line
+	9850 2500 9850 4050
 $EndSCHEMATC
