@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 2
 Title "Ethernet Interface"
 Date "2021-05-01"
-Rev "v0.1.0"
+Rev "v0.2.0"
 Comp "Juraj Giertl"
 Comment1 "j74a8g@gmail.com"
 Comment2 ""

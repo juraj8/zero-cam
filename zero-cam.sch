@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "Zero Cam"
 Date "2021-05-01"
-Rev "v0.1.0"
+Rev "v0.2.0"
 Comp "Juraj Giertl"
 Comment1 "j74a8g@gmail.com"
 Comment2 ""
@@ -4280,17 +4280,6 @@ F 3 "~" H 10150 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3VA #PWR015
-U 1 1 60893B1B
-P 5250 2650
-F 0 "#PWR015" H 5250 2500 50  0001 C CNN
-F 1 "+3.3VA" H 5265 2823 50  0000 C CNN
-F 2 "" H 5250 2650 50  0001 C CNN
-F 3 "" H 5250 2650 50  0001 C CNN
-	1    5250 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C10
 U 1 1 60896E43
 P 5500 2750
@@ -4312,13 +4301,6 @@ F 3 "" H 5700 2750 50  0001 C CNN
 	1    5700 2750
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5250 2650 5250 2750
-Wire Wire Line
-	5150 2850 5150 2750
-Wire Wire Line
-	5150 2750 5250 2750
-Connection ~ 5250 2750
 Wire Wire Line
 	5250 2750 5250 2850
 Wire Wire Line
@@ -4639,17 +4621,6 @@ F 3 "" H 9550 1000 50  0001 C CNN
 	1    9550 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 60B17D6D
-P 6500 3300
-F 0 "J2" H 6580 3292 50  0000 L CNN
-F 1 "Conn_01x04" H 6580 3201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 6500 3300 50  0001 C CNN
-F 3 "~" H 6500 3300 50  0001 C CNN
-	1    6500 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 3300 6300 3300
 Wire Wire Line
@@ -4664,17 +4635,6 @@ F 2 "" H 6300 3500 50  0001 C CNN
 F 3 "" H 6300 3500 50  0001 C CNN
 	1    6300 3500
 	0    1    -1   0   
-$EndComp
-$Comp
-L power:+3.3VA #PWR020
-U 1 1 60B2572E
-P 6300 3200
-F 0 "#PWR020" H 6300 3050 50  0001 C CNN
-F 1 "+3.3VA" V 6315 3327 50  0000 L CNN
-F 2 "" H 6300 3200 50  0001 C CNN
-F 3 "" H 6300 3200 50  0001 C CNN
-	1    6300 3200
-	0    -1   1    0   
 $EndComp
 $Comp
 L Device:LED_Small D8
@@ -5529,4 +5489,33 @@ Wire Wire Line
 NoConn ~ 5850 4650
 NoConn ~ 4350 4450
 NoConn ~ 4350 4550
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 6096FC1B
+P 6500 3400
+F 0 "J2" H 6580 3442 50  0000 L CNN
+F 1 "Conn_01x03" H 6580 3351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6500 3400 50  0001 C CNN
+F 3 "~" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2750 5150 2750
+Wire Wire Line
+	5150 2750 5150 2850
+Connection ~ 5250 2750
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 609A4AF3
+P 5250 2650
+F 0 "#PWR?" H 5250 2500 50  0001 C CNN
+F 1 "+3.3VA" H 5265 2823 50  0000 C CNN
+F 2 "" H 5250 2650 50  0001 C CNN
+F 3 "" H 5250 2650 50  0001 C CNN
+	1    5250 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2650 5250 2750
 $EndSCHEMATC
